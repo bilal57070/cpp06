@@ -41,7 +41,6 @@ void    printchar(std::string arg){
     int i = static_cast<int>(c);
     float f = static_cast<float>(c);
     double d = static_cast<double>(c);
-//std::cout << "te" << std::endl;
     if (isprint(c) && !(isdigit(c)))
         std::cout << "char: " << c << std::endl;
     else
@@ -56,7 +55,6 @@ void    printint(std::string arg){
     char c = static_cast<char>(i);
     float f = static_cast<float>(i);
     double d = static_cast<double>(i);
-    //std::cout << "te" << std::endl;
     if (isprint(c))
         std::cout << "char: " << c << std::endl;
     else
@@ -71,7 +69,6 @@ void    printfloat(std::string arg){
     int i = static_cast<int>(f);
     char c = static_cast<char>(f);
     double d = static_cast<double>(f);
-    std::cout << "te" << std::endl;
     if (isprint(c))
         std::cout << "char: " << c << std::endl;
     else
